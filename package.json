@@ -1,12 +1,12 @@
 {
-  "name": "current-project",
+  "name": "graphqlstudy",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Aniket",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
@@ -15,5 +15,14 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniket-sa/GraphQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aniket-sa/GraphQL/issues"
+  },
+  "homepage": "https://github.com/aniket-sa/GraphQL#readme",
+  "description": ""
 }
